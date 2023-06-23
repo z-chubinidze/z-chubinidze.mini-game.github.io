@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-image: url(back-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+
+}
+#board{
+    height: 450px;
+    width: 450px;
+    border: 3px solid #FFF;
+    border-radius: 25px;
+    margin: 0 auto;
+    background-image: url(kkkkk.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+}
+.score-box{
+    width: 450px;
+   
+    background-color: chocolate;
+    border-radius: 25px;
+    margin: 0 auto;
+    border: 3px solid #FFF;
+}
+#board div{
+    height: 150px;
+    width: 141px;
+    background-image: url(sss.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    mix-blend-mode:initial;
+}
+#board div img{
+    height: 80px;
+    width: 80px;
+    user-select: none;
+
+
+}
